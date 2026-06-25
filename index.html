@@ -3,26 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pranay — Data Scientist</title>
-<meta name="description" content="Data Scientist with 6+ years building causal measurement systems — incrementality testing, MMM, LTV modelling, and experimentation frameworks that drive marketing ROI.">
+<title>Pranay, Data Scientist</title>
+<meta name="description" content="Data Scientist with 6+ years building causal measurement systems, incrementality testing, MMM, LTV modelling, and experimentation frameworks that drive marketing ROI.">
 <meta name="author" content="Pranay">
 <meta name="robots" content="index, follow">
 
 <!-- Open Graph / LinkedIn / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Pranay — Data Scientist">
-<meta property="og:description" content="Data Scientist with 6+ years building causal measurement systems — incrementality testing, MMM, LTV modelling, and experimentation frameworks that drive marketing ROI.">
+<meta property="og:title" content="Pranay, Data Scientist">
+<meta property="og:description" content="Data Scientist with 6+ years building causal measurement systems, incrementality testing, MMM, LTV modelling, and experimentation frameworks that drive marketing ROI.">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/583231">
 <meta property="og:url" content="https://pranay.dev">
 <meta property="og:site_name" content="Pranay Portfolio">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pranay — Data Scientist">
-<meta name="twitter:description" content="Data Scientist with 6+ years building causal measurement systems — incrementality testing, MMM, LTV modelling, and experimentation frameworks that drive marketing ROI.">
+<meta name="twitter:title" content="Pranay, Data Scientist">
+<meta name="twitter:description" content="Data Scientist with 6+ years building causal measurement systems, incrementality testing, MMM, LTV modelling, and experimentation frameworks that drive marketing ROI.">
 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/583231">
 
-<!-- Favicon — inline SVG data URI, no external file needed -->
+<!-- Favicon, inline SVG data URI, no external file needed -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230e0e0e'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Helvetica Neue,Helvetica,Arial,sans-serif' font-size='18' font-weight='600' fill='%23f0ede8' letter-spacing='-1'>P</text></svg>">
 <link rel="alternate icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA">
 
@@ -34,7 +34,7 @@
 :root{
   --bg:#0e0e0e;--bg-card:#141414;--bg-card2:#181818;
   --border:#252525;--border-light:#1e1e1e;
-  --text-primary:#f0ede8;--text-secondary:#888;--text-muted:#555;
+  --text-primary:#f0ede8;--text-secondary:#b0aba3;--text-muted:#888;
   --green:#00B894;--amber:#FDCB6E;--red:#E17055;--blue:#4A90E2;--purple:#6C5CE7;
   --font-sans:'Helvetica Neue',Helvetica,Arial,sans-serif;
   --font-display:'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -73,7 +73,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .hero-cta:hover{background:#fff;border-color:#fff;color:#0e0e0e}
 .hero-photo{flex:1;display:flex;justify-content:center;align-items:center}
 .hero-photo img{width:300px;height:300px;max-width:300px;border-radius:50%;object-fit:cover;object-position:center 15%;display:block;image-rendering:high-quality;filter:contrast(1.05) brightness(1.02);box-shadow:0 0 0 1px rgba(255,255,255,0.06),0 8px 40px rgba(0,0,0,0.5)}
-@media(max-width:768px){.hero-inner{padding:0 24px;flex-direction:column;gap:28px}.hero-text{flex:none;max-width:100%;order:1}.hero-photo{order:0;width:100%}.hero-photo img{width:100%;height:auto;max-width:100%;aspect-ratio:1/1;border-radius:0;object-position:center 20%}}
+@media(max-width:768px){.hero-inner{padding:0 24px;flex-direction:column;gap:28px}.hero-text{flex:none;max-width:100%;order:1}.hero-photo{order:0;width:100%}.hero-photo img{width:min(72vw,280px);height:min(72vw,280px);max-width:100%;border-radius:50%;object-fit:cover;object-position:center 20%;display:block}}
 
 /* HOME SECTIONS */
 .case-studies{border-bottom:1px solid var(--border)}
@@ -91,29 +91,29 @@ section.home-section{padding:100px 0}
 .project-tags{font-size:12px;color:var(--text-muted);letter-spacing:0.03em}
 .project-arrow{font-size:18px;color:var(--text-muted);opacity:0;transform:translateX(-6px);transition:opacity 0.2s,transform 0.2s;flex-shrink:0}
 .about{border-bottom:1px solid var(--border)}
-/* Gradient continuity , hero atmosphere bleeds into next section */
+/* Gradient continuity, hero atmosphere bleeds into next section */
 .case-studies::before{content:'';display:block;height:64px;background:linear-gradient(to bottom,rgba(14,14,14,0.55),transparent);margin-bottom:-64px;pointer-events:none}
 .about-eyebrow{font-size:11px;letter-spacing:0.12em;color:var(--text-muted);text-transform:uppercase;font-weight:500;margin-bottom:40px}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
 .about-bio h2{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(19px,2vw,26px);font-weight:600;line-height:1.35;letter-spacing:-0.02em;color:var(--text-primary);margin-bottom:28px}
-.about-bio p{font-size:14px;line-height:1.8;color:var(--text-secondary);font-weight:300}
+.about-bio p{font-size:14px;line-height:1.8;color:var(--text-secondary);font-weight:400}
 .skills-label{font-size:11px;letter-spacing:0.1em;color:var(--text-muted);text-transform:uppercase;font-weight:500;margin-bottom:24px}
 .skill-group{margin-bottom:32px}
 .skill-group-title{font-size:13px;font-weight:500;color:var(--text-secondary);margin-bottom:10px;letter-spacing:0.01em}
-.skill-group p{font-size:13px;line-height:1.75;color:var(--text-muted);font-weight:300}
+.skill-group p{font-size:13px;line-height:1.75;color:var(--text-muted);font-weight:400}
 .site-footer{background:#000;padding:0;border-top:none}
 .footer-pacman-stage{width:100%;display:block;line-height:0;overflow:hidden}
 .footer-pacman-stage canvas{display:block;width:100%;height:auto}
 .footer-content{max-width:1120px;margin:0 auto;padding:48px 48px 56px;display:flex;align-items:flex-end;justify-content:space-between}
-.footer-cta p{font-size:12px;color:#555;letter-spacing:0.05em;margin-bottom:16px}
+.footer-cta p{font-size:12px;color:#888;letter-spacing:0.05em;margin-bottom:16px}
 .footer-email{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(18px,2.2vw,26px);font-weight:500;color:#f0ede8;letter-spacing:-0.01em;border-bottom:1px solid #252525;padding-bottom:4px;transition:border-color 0.2s;display:block;margin-bottom:28px}
 .footer-email:hover{border-color:#888}
 .footer-links{display:flex;gap:20px}
-.footer-link{font-size:12px;color:#555;letter-spacing:0.04em;transition:color 0.2s;display:inline-flex;align-items:center;gap:5px}
+.footer-link{font-size:12px;color:#888;letter-spacing:0.04em;transition:color 0.2s;display:inline-flex;align-items:center;gap:5px}
 .footer-link:hover{color:#888}
 .footer-meta{text-align:right}
-.footer-meta p{font-size:12px;color:#555;margin-bottom:4px}
-@media(max-width:768px){.footer-content{flex-direction:column;align-items:flex-start;gap:32px;padding:36px 24px 48px}.footer-meta{text-align:left}}
+.footer-meta p{font-size:12px;color:#888;margin-bottom:4px}
+@media(max-width:768px){.footer-content{flex-direction:column;align-items:flex-start;gap:28px;padding:32px 20px 44px}.footer-meta{text-align:left}.footer-email{font-size:clamp(15px,4.5vw,22px)}.footer-links{flex-wrap:wrap;gap:16px}.footer-pacman-stage{min-height:80px}}
 @media(max-width:768px){.container{padding:0 24px}section.home-section{padding:72px 0}.about-grid{grid-template-columns:1fr;gap:48px}.footer-meta{text-align:left}}
 
 /* CASE STUDY SHARED */
@@ -123,7 +123,7 @@ section.home-section{padding:100px 0}
 .cs-eyebrow{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-muted);margin-bottom:22px;display:flex;align-items:center;gap:8px}
 .cs-title{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(28px,4vw,52px);font-weight:700;line-height:1.05;letter-spacing:-0.03em;max-width:800px;margin-bottom:24px}
 .cs-title em{font-style:italic;color:var(--text-muted)}
-.cs-summary{font-size:15px;line-height:1.75;color:var(--text-secondary);max-width:640px;font-weight:300;margin-bottom:32px}
+.cs-summary{font-size:15px;line-height:1.75;color:var(--text-secondary);max-width:640px;font-weight:400;margin-bottom:32px}
 .cs-tags{display:flex;gap:8px;flex-wrap:wrap}
 .cs-tag{font-family:var(--font-mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);border:1px solid var(--border);padding:5px 12px;border-radius:2px}
 .cs-wrap{max-width:1080px;margin:0 auto;padding:0 48px}
@@ -133,28 +133,28 @@ section.home-section{padding:100px 0}
 .chart-lead-section{padding:64px 0;border-bottom:1px solid var(--border-light)}
 .section-num{font-family:var(--font-mono);font-size:10px;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:14px;display:block}
 .section-heading{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:clamp(19px,2.2vw,26px);font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:8px}
-.section-subheading{font-size:14px;color:var(--text-muted);font-style:italic;margin-bottom:28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:300}
-.body-text{font-size:14.5px;line-height:1.85;color:var(--text-secondary);font-weight:300;margin-bottom:18px}
+.section-subheading{font-size:14px;color:var(--text-muted);font-style:italic;margin-bottom:28px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400}
+.body-text{font-size:14.5px;line-height:1.85;color:var(--text-secondary);font-weight:400;margin-bottom:18px}
 .body-text:last-child{margin-bottom:0}
 .body-text strong{color:var(--text-primary);font-weight:500}
 .body-text em{font-style:italic}
 blockquote{border-left:2px solid var(--border);padding:14px 22px;margin:24px 0;background:var(--bg-card);border-radius:0 2px 2px 0}
-blockquote p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;font-style:italic;font-weight:300;line-height:1.7;color:var(--text-secondary)}
+blockquote p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;font-style:italic;font-weight:400;line-height:1.7;color:var(--text-secondary)}
 .steps-list{list-style:none;display:flex;flex-direction:column;gap:22px;margin:20px 0}
 .steps-list li{display:grid;grid-template-columns:28px 1fr;gap:14px;align-items:start}
 .step-num{font-family:var(--font-mono);font-size:11px;padding-top:2px;letter-spacing:0.05em}
-.step-body{font-size:14px;line-height:1.8;color:var(--text-secondary);font-weight:300}
+.step-body{font-size:14px;line-height:1.8;color:var(--text-secondary);font-weight:400}
 .step-body strong{color:var(--text-primary);font-weight:500;display:block;margin-bottom:3px}
 .segment-card{background:var(--bg-card);border:1px solid var(--border);border-radius:3px;padding:20px;margin-bottom:12px}
 .segment-label{font-family:var(--font-mono);font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px}
 .segment-name{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:600;letter-spacing:-0.01em;margin-bottom:6px}
 .segment-clv{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:28px;font-weight:800;letter-spacing:-0.03em;line-height:1;margin-bottom:3px}
 .segment-clv-label{font-family:var(--font-mono);font-size:9px;color:var(--text-muted);margin-bottom:10px}
-.segment-desc{font-size:12px;line-height:1.7;color:var(--text-muted);font-weight:300}
+.segment-desc{font-size:12px;line-height:1.7;color:var(--text-muted);font-weight:400}
 .outcome-list{list-style:none;display:flex;flex-direction:column;gap:14px;margin-top:24px}
 .outcome-item{display:grid;grid-template-columns:6px 1fr;gap:14px;align-items:start;padding:16px 16px 16px 14px;background:var(--bg-card);border:1px solid var(--border-light);border-radius:2px}
 .outcome-dot{width:6px;height:6px;border-radius:50%;margin-top:5px;flex-shrink:0}
-.outcome-body{font-size:14px;line-height:1.8;color:var(--text-secondary);font-weight:300}
+.outcome-body{font-size:14px;line-height:1.8;color:var(--text-secondary);font-weight:400}
 .outcome-body strong{color:var(--text-primary);font-weight:500;display:block;margin-bottom:3px}
 .outcome-badge{font-family:var(--font-mono);font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);margin-top:4px;display:block}
 .stat-row{display:grid;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:3px;overflow:hidden;margin-bottom:22px}
@@ -231,9 +231,9 @@ blockquote p{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:1
 .tl-item:hover .tl-dot{border-color:var(--text-primary);background:var(--text-primary);transform:scale(1.3)}
 .tl-header{display:flex;align-items:baseline;justify-content:space-between;gap:24px;margin-bottom:6px}
 .tl-role{font-size:15px;font-weight:500;color:var(--text-primary);letter-spacing:-0.01em;transition:color 0.2s}
-.tl-company{font-size:13px;color:var(--text-secondary);font-weight:300}
+.tl-company{font-size:13px;color:var(--text-secondary);font-weight:400}
 .tl-period{font-family:var(--font-mono);font-size:10px;color:var(--text-muted);letter-spacing:0.08em;white-space:nowrap;flex-shrink:0}
-.tl-detail{font-size:13px;line-height:1.75;color:var(--text-muted);font-weight:300;max-height:0;overflow:hidden;opacity:0;transform:translateY(-4px);transition:max-height 0.35s ease,opacity 0.3s ease,transform 0.3s ease}
+.tl-detail{font-size:13px;line-height:1.75;color:var(--text-muted);font-weight:400;max-height:0;overflow:hidden;opacity:0;transform:translateY(-4px);transition:max-height 0.35s ease,opacity 0.3s ease,transform 0.3s ease}
 .tl-item:hover .tl-detail{max-height:120px;opacity:1;transform:translateY(0)}
 .tl-item:hover .tl-detail.tl-detail--bullets{max-height:200px}
 .tl-bullets{list-style:none;display:flex;flex-direction:column;gap:7px}
@@ -430,7 +430,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
         </a>
         <a class="project-item reveal" style="transition-delay:0.16s" onclick="showPage('gorillas',null)">
           <div class="project-left">
-            <div class="project-title">€1 of discount, €1 of revenue , or not?</div>
+            <div class="project-title">€1 of discount, €1 of revenue, or not?</div>
             <div class="project-tags">Uplift Modelling · CLV Segmentation · Pricing Strategy · Causal Inference</div>
           </div>
           <span class="project-arrow">→</span>
@@ -445,7 +445,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
       <div class="about-grid">
         <div class="about-bio">
           <h2 class="reveal">Data Scientist with 6+ years building causal measurement systems in fast-moving environments where the data is messy, the incentives are competing, and the decisions are worth millions.</h2>
-          <p class="reveal" style="transition-delay:0.1s">Deep expertise in causal inference , geo-lift holdouts, CUPED, DID, synthetic control, and predictive modelling across CLV, uplift, and demand forecasting. I don't just build models. I built the infrastructure, the experiment frameworks, and the shared measurement language that makes an organisation's decisions defensible for the first time.</p>
+          <p class="reveal" style="transition-delay:0.1s">Deep expertise in causal inference, geo-lift holdouts, CUPED, DID, synthetic control, and predictive modelling across CLV, uplift, and demand forecasting. I don't just build models. I built the infrastructure, the experiment frameworks, and the shared measurement language that makes an organisation's decisions defensible for the first time.</p>
         </div>
         <div class="reveal" style="transition-delay:0.15s">
           <p class="skills-label">Skills</p>
@@ -480,7 +480,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
             </div>
             <span class="tl-period">Aug 2023 – Nov 2025 · Berlin</span>
           </div>
-          <div class="tl-detail tl-detail--bullets"><ul class="tl-bullets"><li>Built a production causal inference framework (geo-lift holdouts, CUPED, RCTs) across 5+ acquisition channels, cutting wasted spend ~20% and directly driving quarterly budget reallocation away from last-click attribution.</li><li>Engineered a full-stack measurement platform — BigQuery pipeline → SQL → Looker dashboards — cutting time-to-insight ~50%, and built XGBoost/gradient boosting LTV models improving forecast accuracy ~18% and used in budget planning.</li></ul></div>
+          <div class="tl-detail tl-detail--bullets"><ul class="tl-bullets"><li>Built a production causal inference framework (geo-lift holdouts, CUPED, RCTs) across 5+ acquisition channels, cutting wasted spend ~20% and directly driving quarterly budget reallocation away from last-click attribution.</li><li>Engineered a full-stack measurement platform, BigQuery pipeline → SQL → Looker dashboards, cutting time-to-insight ~50%, and built XGBoost/gradient boosting LTV models improving forecast accuracy ~18% and used in budget planning.</li></ul></div>
           <div class="tl-tags">
             <span class="tl-tag">Geo-Lift</span><span class="tl-tag">CUPED</span><span class="tl-tag">LTV Modelling</span><span class="tl-tag">BigQuery</span>
           </div>
@@ -590,7 +590,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
     <div class="cs-hero-inner">
       <p class="cs-eyebrow reveal"><span style="width:24px;height:1px;background:var(--purple);display:inline-block;vertical-align:middle"></span>Awin Global · 2023–2025 · Case Study</p>
       <h1 class="cs-title reveal" style="transition-delay:.08s">From Last-Click <em>to</em> Last-Cause</h1>
-      <p class="cs-summary reveal" style="transition-delay:.16s">How a causal measurement system revealed that Awin's brand awareness campaigns were adding volume but destroying lead quality — and how proving that finding twice, after leadership initially pushed back, restructured ~€500K in quarterly marketing budget toward channels with genuine incremental lift.</p>
+      <p class="cs-summary reveal" style="transition-delay:.16s">How a causal measurement system revealed that Awin's brand awareness campaigns were adding volume but destroying lead quality, and how proving that finding twice, after leadership initially pushed back, restructured ~€500K in quarterly marketing budget toward channels with genuine incremental lift.</p>
       <div class="cs-tags reveal" style="transition-delay:.22s">
         <span class="cs-tag">Geo-Lift Holdouts</span><span class="cs-tag">Incrementality Testing</span><span class="cs-tag">CUPED Variance Reduction</span><span class="cs-tag">Budget Optimisation</span>
       </div>
@@ -600,39 +600,39 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
 
     <!-- 01 -->
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--purple)">01 — The Business Problem</span>
+      <span class="section-num" style="color:var(--purple)">01, The Business Problem</span>
       <h2 class="section-heading">The campaigns looked like they were working.</h2>
       <p class="section-subheading">The question was whether they were causing anything.</p>
-      <p class="body-text">Awin's internal marketing team was running campaigns across Google Search, referral programmes, and paid channels with a single goal: to drive new advertiser opportunities onto the platform and convert them into active clients. The baseline was strong — we were converting <strong>64% of inbound opportunities</strong> across organic and direct channels. Campaign activity appeared to be adding to that pipeline, and on last-click attribution, the numbers looked healthy across the board.</p>
-      <p class="body-text">But last-click has a structural blind spot. It tells you what touchpoint preceded a conversion, not what caused it. A prospect who had already decided to evaluate Awin, who had already been through an initial sales conversation, who was already deep in the funnel — they'd still get credited to whichever campaign they happened to click last. The question the data didn't answer: <em>how many of these opportunities would have arrived and converted without any campaign contact at all?</em></p>
+      <p class="body-text">Awin's internal marketing team was running campaigns across Google Search, referral programmes, and paid channels with a single goal: to drive new advertiser opportunities onto the platform and convert them into active clients. The baseline was strong, we were converting <strong>64% of inbound opportunities</strong> across organic and direct channels. Campaign activity appeared to be adding to that pipeline, and on last-click attribution, the numbers looked healthy across the board.</p>
+      <p class="body-text">But last-click has a structural blind spot. It tells you what touchpoint preceded a conversion, not what caused it. A prospect who had already decided to evaluate Awin, who had already been through an initial sales conversation, who was already deep in the funnel, they'd still get credited to whichever campaign they happened to click last. The question the data didn't answer: <em>how many of these opportunities would have arrived and converted without any campaign contact at all?</em></p>
       <blockquote><p>"We were reporting campaign performance based on what came last, not what caused the decision. For a platform built on performance marketing principles, measuring our own acquisition on last-click was a contradiction we needed to resolve."</p></blockquote>
-      <p class="body-text">With approximately <strong>€500K in quarterly marketing budget</strong> being allocated across channels based on these signals, the cost of getting this wrong was real. Brand awareness campaigns were consuming a significant share of the budget — and no one had yet tested whether the conversion credit they were claiming had been earned.</p>
+      <p class="body-text">With approximately <strong>€500K in quarterly marketing budget</strong> being allocated across channels based on these signals, the cost of getting this wrong was real. Brand awareness campaigns were consuming a significant share of the budget, and no one had yet tested whether the conversion credit they were claiming had been earned.</p>
     </section>
 
     <!-- 02 -->
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--purple)">02 — Why the Obvious Approach Wouldn't Work</span>
+      <span class="section-num" style="color:var(--purple)">02, Why the Obvious Approach Wouldn't Work</span>
       <h2 class="section-heading">Pausing a channel for a week tells you nothing in a B2B sales cycle.</h2>
       <p class="body-text">The instinct in most marketing teams is to turn off a channel and watch what happens. In a B2B platform context where the advertiser sales cycle runs weeks to months, a short pause produces noise, not signal. Any effect would be buried in pipeline lag, seasonal variation, and the natural rhythm of a long conversion funnel. You need holdouts calibrated to the sales cycle length, not just the campaign flight window.</p>
-      <p class="body-text">There was also an organisational constraint that mattered as much as the technical one. The brand awareness campaigns had strong internal advocates with years of reported performance data behind them. Any measurement approach that could be dismissed as too short, too narrow, or methodologically weak would simply get set aside. We needed a design that was both <strong>causally rigorous and institutionally defensible</strong> — because the results were going to face real scrutiny.</p>
-      <blockquote><p>Awin operates across 10+ markets with different competitive dynamics, different sales cycle lengths, and different channel compositions. A single global measurement wouldn't generalise — we needed market-level incrementality estimates that could be aggregated reliably and interrogated market by market if challenged.</p></blockquote>
+      <p class="body-text">There was also an organisational constraint that mattered as much as the technical one. The brand awareness campaigns had strong internal advocates with years of reported performance data behind them. Any measurement approach that could be dismissed as too short, too narrow, or methodologically weak would simply get set aside. We needed a design that was both <strong>causally rigorous and institutionally defensible</strong>, because the results were going to face real scrutiny.</p>
+      <blockquote><p>Awin operates across 10+ markets with different competitive dynamics, different sales cycle lengths, and different channel compositions. A single global measurement wouldn't generalise, we needed market-level incrementality estimates that could be aggregated reliably and interrogated market by market if challenged.</p></blockquote>
     </section>
 
     <!-- 03 -->
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--purple)">03 — What I Designed</span>
+      <span class="section-num" style="color:var(--purple)">03, What I Designed</span>
       <h2 class="section-heading">A geo-lift framework built around the actual sales cycle, not the campaign window.</h2>
       <ul class="steps-list">
-        <li><span class="step-num" style="color:var(--purple)">1.</span><div class="step-body"><strong>Geo-lift holdouts across GSA markets</strong>Randomised geographic holdout experiments across the GSA region, splitting comparable markets into treatment (campaigns running) and control (campaigns suppressed) groups. Markets were matched on pre-period opportunity conversion volume and seasonality profiles to ensure structural similarity before any experiment started. Each holdout ran for 4–6 weeks — long enough to capture a real conversion signal across the sales cycle, short enough to limit pipeline risk in suppressed markets.</div></li>
-        <li><span class="step-num" style="color:var(--purple)">2.</span><div class="step-body"><strong>Isolating campaign type as the treatment variable</strong>Rather than measuring "all campaigns" as a single block, I designed the holdouts to isolate brand awareness creative vs performance-focused creative as separate treatment conditions. This was the design decision that produced the most actionable finding: the incrementality gap wasn't uniform — it was concentrated almost entirely in brand awareness.</div></li>
-        <li><span class="step-num" style="color:var(--purple)">3.</span><div class="step-body"><strong>CUPED variance reduction for sensitivity</strong>Market-level experiments have inherently fewer statistical units than user-level tests. I applied CUPED using pre-period opportunity conversion metrics as covariates to reduce residual variance, meaningfully increasing the sensitivity of each experiment within the 4–6 week window — without extending holdouts to the point of creating unacceptable sales pipeline risk in suppressed markets.</div></li>
-        <li><span class="step-num" style="color:var(--purple)">4.</span><div class="step-body"><strong>Production measurement platform in BigQuery, dbt, and Looker</strong>Automated BigQuery pipelines pulling campaign, GTM tracking, and CRM conversion data; 12+ dbt models transforming raw events into standardised KPIs — opportunity CAC, conversion rate by source, payback period; and Looker dashboards giving marketing and product teams real-time self-serve access across markets. Reporting time dropped from a 2-day manual process to same-day. KPI definitions standardised across four growth teams who had previously been calculating them inconsistently.</div></li>
+        <li><span class="step-num" style="color:var(--purple)">1.</span><div class="step-body"><strong>Geo-lift holdouts across GSA markets</strong>Randomised geographic holdout experiments across the GSA region, splitting comparable markets into treatment (campaigns running) and control (campaigns suppressed) groups. Markets were matched on pre-period opportunity conversion volume and seasonality profiles to ensure structural similarity before any experiment started. Each holdout ran for 4–6 weeks, long enough to capture a real conversion signal across the sales cycle, short enough to limit pipeline risk in suppressed markets.</div></li>
+        <li><span class="step-num" style="color:var(--purple)">2.</span><div class="step-body"><strong>Isolating campaign type as the treatment variable</strong>Rather than measuring "all campaigns" as a single block, I designed the holdouts to isolate brand awareness creative vs performance-focused creative as separate treatment conditions. This was the design decision that produced the most actionable finding: the incrementality gap wasn't uniform, it was concentrated almost entirely in brand awareness.</div></li>
+        <li><span class="step-num" style="color:var(--purple)">3.</span><div class="step-body"><strong>CUPED variance reduction for sensitivity</strong>Market-level experiments have inherently fewer statistical units than user-level tests. I applied CUPED using pre-period opportunity conversion metrics as covariates to reduce residual variance, meaningfully increasing the sensitivity of each experiment within the 4–6 week window, without extending holdouts to the point of creating unacceptable sales pipeline risk in suppressed markets.</div></li>
+        <li><span class="step-num" style="color:var(--purple)">4.</span><div class="step-body"><strong>Production measurement platform in BigQuery, dbt, and Looker</strong>Automated BigQuery pipelines pulling campaign, GTM tracking, and CRM conversion data; 12+ dbt models transforming raw events into standardised KPIs, opportunity CAC, conversion rate by source, payback period; and Looker dashboards giving marketing and product teams real-time self-serve access across markets. Reporting time dropped from a 2-day manual process to same-day. KPI definitions standardised across four growth teams who had previously been calculating them inconsistently.</div></li>
       </ul>
     </section>
 
     <!-- 04 -->
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--purple)">04 — What We Found</span>
+      <span class="section-num" style="color:var(--purple)">04, What We Found</span>
       <h2 class="section-heading">The brand wasn't doing anything. It was adding volume and subtracting quality.</h2>
       <div class="stat-row stat-row-4" style="margin-top:24px;margin-bottom:28px">
         <div class="stat-cell"><div class="stat-num" style="color:var(--green)">64%</div><div class="stat-label">Organic baseline conv. rate</div></div>
@@ -640,16 +640,16 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
         <div class="stat-cell"><div class="stat-num" style="color:var(--text-primary)">+12%</div><div class="stat-label">Volume uplift from brand</div></div>
         <div class="stat-cell"><div class="stat-num" style="color:var(--amber)">≈ 0</div><div class="stat-label">Net qualified opp. lift</div></div>
       </div>
-      <p class="body-text">The first round of holdout experiments produced a finding more nuanced than a simple "brand doesn't work" conclusion — and more commercially significant because of it. When brand awareness campaigns were suppressed in control markets, inbound opportunity volume dropped approximately <strong>12% in weeks 1–2</strong>. The channel was generating real volume.</p>
-      <p class="body-text">But two other findings changed the interpretation entirely. First, the quality gap: brand-sourced leads were converting at approximately <strong>~51%</strong> — a full <strong>20 percentage points below</strong> the 64% baseline conversion rate from organic and direct opportunities. The campaigns were filling the top of the funnel with prospects who were structurally less likely to become clients.</p>
+      <p class="body-text">The first round of holdout experiments produced a finding more nuanced than a simple "brand doesn't work" conclusion, and more commercially significant because of it. When brand awareness campaigns were suppressed in control markets, inbound opportunity volume dropped approximately <strong>12% in weeks 1–2</strong>. The channel was generating real volume.</p>
+      <p class="body-text">But two other findings changed the interpretation entirely. First, the quality gap: brand-sourced leads were converting at approximately <strong>~51%</strong>, a full <strong>20 percentage points below</strong> the 64% baseline conversion rate from organic and direct opportunities. The campaigns were filling the top of the funnel with prospects who were structurally less likely to become clients.</p>
     </section>
 
     <!-- Chart 1: inline after the quality gap finding -->
     <section class="chart-lead-section reveal" style="padding-top:0;border-top:none">
       <div class="chart-card" id="awin-c1">
         <div class="chart-header">
-          <p class="chart-eyebrow">Chart 01 — Core Finding</p>
-          <h3 class="chart-title">Volume contribution vs lead conversion quality — by campaign type</h3>
+          <p class="chart-eyebrow">Chart 01, Core Finding</p>
+          <h3 class="chart-title">Volume contribution vs lead conversion quality, by campaign type</h3>
           <p class="chart-sub">Brand added ~12% inbound volume but at a 20-point lower conversion rate than organic. Once quality-adjusted, net incremental value was near zero.</p>
         </div>
         <div class="chart-body">
@@ -662,17 +662,17 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
 
     <!-- 04 continued: recovery finding -->
     <section class="text-section reveal" style="border-top:none;padding-top:0">
-      <p class="body-text">Second, and more conclusively, the recovery pattern. By weeks 4–6 of the holdout, the 12% volume drop in control markets had <strong>fully recovered</strong>. Organic and direct demand absorbed the gap naturally, without any campaign intervention. The volume brand awareness was generating wasn't incremental demand — it was latent demand arriving slightly earlier than it would have otherwise.</p>
-      <blockquote><p>The net arithmetic: brand campaigns added ~12% volume at ~51% conversion vs a 64% organic baseline. Once quality-adjusted, the incremental output of qualified opportunities was close to zero — while consuming the largest single share of the quarterly budget.</p></blockquote>
+      <p class="body-text">Second, and more conclusively, the recovery pattern. By weeks 4–6 of the holdout, the 12% volume drop in control markets had <strong>fully recovered</strong>. Organic and direct demand absorbed the gap naturally, without any campaign intervention. The volume brand awareness was generating wasn't incremental demand, it was latent demand arriving slightly earlier than it would have otherwise.</p>
+      <blockquote><p>The net arithmetic: brand campaigns added ~12% volume at ~51% conversion vs a 64% organic baseline. Once quality-adjusted, the incremental output of qualified opportunities was close to zero, while consuming the largest single share of the quarterly budget.</p></blockquote>
     </section>
 
     <!-- Chart 2: inline after the recovery finding -->
     <section class="chart-lead-section reveal" style="padding-top:0;border-top:none">
       <div class="chart-card" id="awin-c2">
         <div class="chart-header">
-          <p class="chart-eyebrow">Chart 02 — The Recovery Curve</p>
+          <p class="chart-eyebrow">Chart 02, The Recovery Curve</p>
           <h3 class="chart-title">Weekly inbound opportunities: treatment vs control markets</h3>
-          <p class="chart-sub">Toggle between campaign types. Brand awareness shows a ~12% initial drop that fully recovers by weeks 4–6. Performance and referral show no recovery — genuine incremental demand creation.</p>
+          <p class="chart-sub">Toggle between campaign types. Brand awareness shows a ~12% initial drop that fully recovers by weeks 4–6. Performance and referral show no recovery, genuine incremental demand creation.</p>
         </div>
         <div class="chart-body">
           <div class="toggle-row">
@@ -682,17 +682,17 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
           </div>
           <div class="legend"><div class="leg"><div class="leg-sq" style="background:var(--purple)"></div>Treatment (campaigns running)</div><div class="leg"><div class="leg-dash" style="border-color:var(--green)"></div>Control (campaigns suppressed)</div></div>
           <div class="canvas-wrap" style="height:200px"><canvas id="awin-chart2"></canvas></div>
-          <div class="chart-annotation purple" id="awin-c2-note"><strong>Brand awareness holdout:</strong> Control markets dropped ~12% in weeks 1–2 when brand was suppressed. By weeks 4–6, organic and direct demand had fully absorbed the gap — brand was accelerating latent demand, not creating new demand.</div>
+          <div class="chart-annotation purple" id="awin-c2-note"><strong>Brand awareness holdout:</strong> Control markets dropped ~12% in weeks 1–2 when brand was suppressed. By weeks 4–6, organic and direct demand had fully absorbed the gap, brand was accelerating latent demand, not creating new demand.</div>
         </div>
       </div>
     </section>
 
     <!-- 05: Outcome & Reallocation -->
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--purple)">05 — The Outcome</span>
+      <span class="section-num" style="color:var(--purple)">05, The Outcome</span>
       <h2 class="section-heading">Leadership pushed back. We ran it again. The finding held.</h2>
-      <p class="body-text">The initial results met resistance. Brand awareness had strong internal advocates, and the finding — that the channel with the largest budget share had near-zero net qualified impact — was an uncomfortable one. Rather than relitigate the methodology, we reran the geo-lift holdouts with a second wave of experiments, extending the measurement window and adding market pairs to increase statistical confidence.</p>
-      <p class="body-text">The finding replicated. The quality gap held at ~20 percentage points. The recovery curve appeared again. With two rounds of evidence pointing to the same conclusion, the conversation shifted from "is this right?" to "what do we do about it?" The result was a full reallocation of the ~€500K quarterly budget — total spend held flat, allocation rebuilt around channels with validated incremental lift and conversion quality at or above the 64% organic baseline.</p>
+      <p class="body-text">The initial results met resistance. Brand awareness had strong internal advocates, and the finding, that the channel with the largest budget share had near-zero net qualified impact, was an uncomfortable one. Rather than relitigate the methodology, we reran the geo-lift holdouts with a second wave of experiments, extending the measurement window and adding market pairs to increase statistical confidence.</p>
+      <p class="body-text">The finding replicated. The quality gap held at ~20 percentage points. The recovery curve appeared again. With two rounds of evidence pointing to the same conclusion, the conversation shifted from "is this right?" to "what do we do about it?" The result was a full reallocation of the ~€500K quarterly budget, total spend held flat, allocation rebuilt around channels with validated incremental lift and conversion quality at or above the 64% organic baseline.</p>
     </section>
 
     <!-- Charts 3 & 4: Budget reallocation outcome -->
@@ -700,15 +700,15 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
       <p class="section-label">Budget Reallocation &amp; Strategic Frame</p>
       <div class="two-col-charts">
         <div class="chart-card" id="awin-c3">
-          <div class="chart-header"><p class="chart-eyebrow">Chart 03 — Budget Reallocation</p><h3 class="chart-title">Quarterly budget — before vs after</h3><p class="chart-sub">Total held flat at ~€500K. Allocation shifted toward channels with validated incremental lift and conversion quality at or above the 64% organic baseline.</p></div>
+          <div class="chart-header"><p class="chart-eyebrow">Chart 03, Budget Reallocation</p><h3 class="chart-title">Quarterly budget, before vs after</h3><p class="chart-sub">Total held flat at ~€500K. Allocation shifted toward channels with validated incremental lift and conversion quality at or above the 64% organic baseline.</p></div>
           <div class="chart-body">
             <div class="legend"><div class="leg"><div class="leg-sq" style="background:rgba(108,92,231,0.4)"></div>Before (last-click allocation)</div><div class="leg"><div class="leg-sq" style="background:rgba(0,184,148,0.8)"></div>After (incrementality-adjusted)</div></div>
             <div class="canvas-wrap" style="height:260px"><canvas id="awin-chart3"></canvas></div>
-            <div class="chart-annotation green"><strong>The reallocation:</strong> Brand cut from ~€200K to ~€60K per quarter. Referral — highest incremental signal, most underinvested — more than tripled. Performance search +€80K. Wasted spend −~20%.</div>
+            <div class="chart-annotation green"><strong>The reallocation:</strong> Brand cut from ~€200K to ~€60K per quarter. Referral, highest incremental signal, most underinvested, more than tripled. Performance search +€80K. Wasted spend −~20%.</div>
           </div>
         </div>
         <div class="chart-card" id="awin-c4">
-          <div class="chart-header"><p class="chart-eyebrow">Chart 04 — Strategic Frame</p><h3 class="chart-title">Lead quality vs incremental volume — by channel</h3><p class="chart-sub">Bubble size = quarterly spend before reallocation. Ideal channel: top-right. Brand awareness sat bottom-right — volume without quality.</p></div>
+          <div class="chart-header"><p class="chart-eyebrow">Chart 04, Strategic Frame</p><h3 class="chart-title">Lead quality vs incremental volume, by channel</h3><p class="chart-sub">Bubble size = quarterly spend before reallocation. Ideal channel: top-right. Brand awareness sat bottom-right, volume without quality.</p></div>
           <div class="chart-body">
             <div class="legend"><div class="leg"><div class="leg-sq" style="background:rgba(108,92,231,0.6)"></div>Brand / display channels</div><div class="leg"><div class="leg-sq" style="background:rgba(0,184,148,0.8)"></div>Performance / referral channels</div></div>
             <div class="canvas-wrap" style="height:280px"><canvas id="awin-chart4"></canvas></div>
@@ -719,9 +719,21 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
     </section>
 
   </div>
-  <footer class="cs-footer">
-    <div class="footer-cta"><p>Interested to work with me?</p><a href="mailto:pocketofpranay22@gmail.com" class="footer-email">pocketofpranay22@gmail.com</a></div>
-    <div class="footer-meta"><p>Pranay 2026</p><p>All rights reserved</p></div>
+  <footer class="site-footer" id="section-contact">
+    <div class="footer-pacman-stage" aria-hidden="true">
+      <canvas id="pacman-canvas-awin"></canvas>
+    </div>
+    <div class="footer-content">
+      <div class="footer-cta">
+        <p>Interested to work with me?</p>
+        <a href="mailto:pocketofpranay22@gmail.com" class="footer-email">pocketofpranay22@gmail.com</a>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/pranay-463249201/" target="_blank" class="footer-link">LinkedIn ↗</a>
+          <a href="mailto:pocketofpranay22@gmail.com" class="footer-link">Email ↗</a>
+        </div>
+      </div>
+      <div class="footer-meta"><p>Pranay 2026</p><p>All rights reserved</p></div>
+    </div>
   </footer>
 </div>
 
@@ -732,7 +744,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
     <div class="cs-hero-inner">
       <p class="cs-eyebrow reveal"><span style="width:24px;height:1px;background:var(--blue);display:inline-block;vertical-align:middle"></span>Axel Springer National Media & Tech · 2022 · Case Study</p>
       <h1 class="cs-title reveal" style="transition-delay:.08s">22% Was a Lie. <em>15% Changed the Roadmap.</em></h1>
-      <p class="cs-summary reveal" style="transition-delay:.16s">How auditing event-tracking pipelines across BILD and WELT revealed that the Registration→Trial conversion rate was being reported at 22% when the real number was 15% , a 47% inflation hiding the most significant leak in the subscription funnel.</p>
+      <p class="cs-summary reveal" style="transition-delay:.16s">How auditing event-tracking pipelines across BILD and WELT revealed that the Registration→Trial conversion rate was being reported at 22% when the real number was 15%, a 47% inflation hiding the most significant leak in the subscription funnel.</p>
       <div class="cs-tags reveal" style="transition-delay:.22s">
         <span class="cs-tag">Funnel Analysis</span><span class="cs-tag">Experimentation Design</span><span class="cs-tag">Event Tracking Audit</span><span class="cs-tag">Data Quality</span>
       </div>
@@ -740,22 +752,22 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
   </header>
   <div class="cs-wrap">
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--blue)">01 , The Business Problem</span>
+      <span class="section-num" style="color:var(--blue)">01, The Business Problem</span>
       <h2 class="section-heading">The data looked right. That was the problem.</h2>
-      <p class="body-text">Axel Springer's digital properties , BILD and WELT , were making decisions every week based on funnel analytics and A/B test results. The tracking infrastructure and experimentation methodology underpinning those decisions had never been properly audited.</p>
-      <p class="body-text">Duplicate event fires. Misfired tracking triggers. Tests were stopped the moment they crossed a significance threshold. Across five analytics teams, these weren't isolated incidents , they were systemic. And because nobody had surfaced them, the teams had no reason to question the numbers they were acting on.</p>
-      <blockquote><p>"The most dangerous measurement failure isn't one that produces obviously wrong answers , it's one that produces plausible wrong answers. Numbers that look right, behave right, and get used confidently."</p></blockquote>
-      <p class="body-text">A product team with <strong>22% showing in their dashboard</strong> has no reason to prioritise that step. A product team with the real number , <strong>15%</strong> , has an immediate roadmap conversation.</p>
+      <p class="body-text">Axel Springer's digital properties, BILD and WELT, were making decisions every week based on funnel analytics and A/B test results. The tracking infrastructure and experimentation methodology underpinning those decisions had never been properly audited.</p>
+      <p class="body-text">Duplicate event fires. Misfired tracking triggers. Tests were stopped the moment they crossed a significance threshold. Across five analytics teams, these weren't isolated incidents, they were systemic. And because nobody had surfaced them, the teams had no reason to question the numbers they were acting on.</p>
+      <blockquote><p>"The most dangerous measurement failure isn't one that produces obviously wrong answers, it's one that produces plausible wrong answers. Numbers that look right, behave right, and get used confidently."</p></blockquote>
+      <p class="body-text">A product team with <strong>22% showing in their dashboard</strong> has no reason to prioritise that step. A product team with the real number, <strong>15%</strong>, has an immediate roadmap conversation.</p>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--blue)">02 , What Was Actually Broken</span>
+      <span class="section-num" style="color:var(--blue)">02, What Was Actually Broken</span>
       <h2 class="section-heading">Two failure modes. One shared root cause.</h2>
       <blockquote><p><strong style="color:var(--text-primary);font-style:normal">The tracking failure.</strong> Misfired triggers were recording trial start events that hadn't actually been completed, inflating the apparent conversion rate at Registration→Trial. Duplicate event fires were double-counting certain user actions. All five analytics teams were working on data that had never been validated against source of truth.</p></blockquote>
       <p class="body-text">The second failure was methodological. Teams were stopping A/B tests early as soon as results crossed a significance threshold rather than running to their pre-specified sample size. Stopping at first significance inflates false positive rates dramatically.</p>
       <blockquote><p>"The teams weren't being careless, they were being responsive. An underpowered positive result and a real positive result look identical in a dashboard. The only thing separating them is whether the test ran long enough."</p></blockquote>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--blue)">03 , What I Built</span>
+      <span class="section-num" style="color:var(--blue)">03, What I Built</span>
       <h2 class="section-heading">Fix the foundation. Then trust everything built on top of it.</h2>
       <ul class="steps-list">
         <li><span class="step-num" style="color:var(--blue)">1.</span><div class="step-body"><strong>Full event-tracking audit across BILD and WELT</strong>Systematically mapped every tracked event against its intended trigger, identified duplicate fires, located misfired triggers, and cross-referenced event counts against server-side conversion data across all five analytics teams.</div></li>
@@ -766,7 +778,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
     </section>
     <section class="split-section">
       <div class="reveal">
-        <span class="section-num" style="color:var(--blue)">04 , The Funnel Finding</span>
+        <span class="section-num" style="color:var(--blue)">04, The Funnel Finding</span>
         <h2 class="section-heading">22% reported. 15% real. A 47% inflation hiding the most important leak.</h2>
         <div class="stat-row stat-row-3" style="margin-top:24px">
           <div class="stat-cell"><div class="stat-num" style="color:var(--red)">22%</div><div class="stat-label">Reported Reg→Trial rate</div></div>
@@ -775,10 +787,10 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
         </div>
         <p class="body-text" style="margin-top:20px">The subscription conversion journey ran six steps: Page view → Article view → Paywall hit → Registration → Trial start → Paid subscription. What the tracking data was hiding was the true scale of the Registration→Trial gap.</p>
         <blockquote><p>"The most dangerous thing about 22% is that it's plausible. It doesn't trigger an alert. It just sits in the dashboard looking reasonable while the product team builds their roadmap around a funnel that doesn't exist."</p></blockquote>
-        <p class="body-text">The paid subscription rate from trial starters held at approximately <strong>10%</strong>. The product wasn't losing people inside the trial , it was losing them in the gap between completing registration and deciding to start one. That's a friction problem, not a value problem.</p>
+        <p class="body-text">The paid subscription rate from trial starters held at approximately <strong>10%</strong>. The product wasn't losing people inside the trial, it was losing them in the gap between completing registration and deciding to start one. That's a friction problem, not a value problem.</p>
       </div>
       <div class="chart-card visible" id="axel-c1">
-        <div class="chart-header"><p class="chart-eyebrow">Chart 01 , Core Finding</p><h3 class="chart-title">Subscription funnel , reported vs real</h3><p class="chart-sub">Misfired triggers inflated Registration→Trial from 15% to 22%.</p></div>
+        <div class="chart-header"><p class="chart-eyebrow">Chart 01, Core Finding</p><h3 class="chart-title">Subscription funnel, reported vs real</h3><p class="chart-sub">Misfired triggers inflated Registration→Trial from 15% to 22%.</p></div>
         <div class="chart-body">
           <div class="funnel-compare">
             <div class="funnel-col">
@@ -814,15 +826,15 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
               </div>
             </div>
           </div>
-          <div class="chart-annotation blue"><strong>Key insight:</strong> 10% paid rate held from trial starters , the product wasn't losing people inside the trial. Friction problem, not value problem.</div>
+          <div class="chart-annotation blue"><strong>Key insight:</strong> 10% paid rate held from trial starters, the product wasn't losing people inside the trial. Friction problem, not value problem.</div>
         </div>
       </div>
     </section>
     <section class="split-section">
       <div class="reveal">
-        <span class="section-num" style="color:var(--blue)">05 , The Experimentation Finding</span>
+        <span class="section-num" style="color:var(--blue)">05, The Experimentation Finding</span>
         <h2 class="section-heading">1 week and 800 users. Then 5 weeks and 8,000.</h2>
-        <p class="body-text">Clean data first, then a reliable methodology to analyse them , both were necessary. A well-powered experiment on corrupted data is still wrong. Clean data fed into an underpowered experiment is still unreliable.</p>
+        <p class="body-text">Clean data first, then a reliable methodology to analyse them, both were necessary. A well-powered experiment on corrupted data is still wrong. Clean data fed into an underpowered experiment is still unreliable.</p>
         <div class="compare-table">
           <div class="compare-col">
             <div class="compare-header ch-before">Before</div>
@@ -844,11 +856,11 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
         <blockquote><p>"Speed and reliability are in genuine tension in experimentation. The redesign made the trade-off explicit: slower experiments, trustworthy decisions."</p></blockquote>
       </div>
       <div class="chart-card visible" id="axel-c2">
-        <div class="chart-header"><p class="chart-eyebrow">Chart 02 , Methodology Finding</p><h3 class="chart-title">Statistical power at 800 vs 8,000 users</h3><p class="chart-sub">Tests stopped at 800 had critically low power. 8,000 crosses the 80% reliability threshold.</p></div>
+        <div class="chart-header"><p class="chart-eyebrow">Chart 02, Methodology Finding</p><h3 class="chart-title">Statistical power at 800 vs 8,000 users</h3><p class="chart-sub">Tests stopped at 800 had critically low power. 8,000 crosses the 80% reliability threshold.</p></div>
         <div class="chart-body">
           <div class="legend"><div class="leg"><div class="leg-sq" style="background:rgba(225,112,85,0.8)"></div>Before (800)</div><div class="leg"><div class="leg-sq" style="background:rgba(0,184,148,0.8)"></div>After (8,000)</div><div class="leg"><div class="leg-dash"></div>80% threshold</div></div>
           <div class="canvas-wrap" style="height:210px"><canvas id="axel-chart2"></canvas></div>
-          <div class="chart-annotation blue"><strong>What early stopping costs:</strong> At 800 users, power was below 30%. At 8,000, power exceeds 80%. The 10× sample size increase wasn't conservatism , it was the honest cost of trustworthy measurement.</div>
+          <div class="chart-annotation blue"><strong>What early stopping costs:</strong> At 800 users, power was below 30%. At 8,000, power exceeds 80%. The 10× sample size increase wasn't conservatism, it was the honest cost of trustworthy measurement.</div>
         </div>
       </div>
     </section>
@@ -856,7 +868,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
       <p class="section-label">Tracking Audit & Outcomes</p>
       <div class="two-col-charts">
         <div class="chart-card" id="axel-c3">
-          <div class="chart-header"><p class="chart-eyebrow">Chart 03 , Tracking Audit</p><h3 class="chart-title">Event tracking error types and their impact</h3><p class="chart-sub">Two error types contaminated every experiment dataset across all five teams.</p></div>
+          <div class="chart-header"><p class="chart-eyebrow">Chart 03, Tracking Audit</p><h3 class="chart-title">Event tracking error types and their impact</h3><p class="chart-sub">Two error types contaminated every experiment dataset across all five teams.</p></div>
           <div class="chart-body">
             <div class="legend"><div class="leg"><div class="leg-sq" style="background:rgba(225,112,85,0.8)"></div>Metric inflation (%)</div><div class="leg"><div class="leg-sq" style="background:rgba(74,144,226,0.7)"></div>Teams affected (of 5)</div></div>
             <div class="canvas-wrap" style="height:210px"><canvas id="axel-chart3"></canvas></div>
@@ -864,7 +876,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
           </div>
         </div>
         <div class="chart-card" id="axel-c4">
-          <div class="chart-header"><p class="chart-eyebrow">Chart 04 , The Outcome</p><h3 class="chart-title">Measurement reliability before vs after</h3><p class="chart-sub">Five dimensions of measurement quality improved across all five teams.</p></div>
+          <div class="chart-header"><p class="chart-eyebrow">Chart 04, The Outcome</p><h3 class="chart-title">Measurement reliability before vs after</h3><p class="chart-sub">Five dimensions of measurement quality improved across all five teams.</p></div>
           <div class="chart-body">
             <div class="legend"><div class="leg"><div class="leg-sq" style="background:rgba(225,112,85,0.6)"></div>Before</div><div class="leg"><div class="leg-sq" style="background:rgba(0,184,148,0.8)"></div>After</div></div>
             <div class="canvas-wrap" style="height:260px"><canvas id="axel-chart4"></canvas></div>
@@ -874,15 +886,27 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
       </div>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--blue)">06 , What I'd Do Differently</span>
+      <span class="section-num" style="color:var(--blue)">06, What I'd Do Differently</span>
       <h2 class="section-heading">Honest reflection.</h2>
-      <p class="body-text">The tracking audit found the problems reactively. If I were starting again, I'd run a full tracking audit as the first deliverable of any analytics engagement , before touching any experiment data, before building any dashboard.</p>
+      <p class="body-text">The tracking audit found the problems reactively. If I were starting again, I'd run a full tracking audit as the first deliverable of any analytics engagement, before touching any experiment data, before building any dashboard.</p>
       <p class="body-text">The early-stopping problem was cultural as much as technical. Adding hard stopping rules was the right intervention, but in retrospect I'd have paired it with a concrete demonstration: here are the tests you called positive in the last six months, here is the probability that each one was noise. Understanding changes behaviour permanently.</p>
     </section>
   </div>
-  <footer class="cs-footer">
-    <div class="footer-cta"><p>Interested to work with me?</p><a href="mailto:pocketofpranay22@gmail.com" class="footer-email">pocketofpranay22@gmail.com</a></div>
-    <div class="footer-meta"><p>Pranay 2026</p><p>All rights reserved</p></div>
+  <footer class="site-footer" id="section-contact">
+    <div class="footer-pacman-stage" aria-hidden="true">
+      <canvas id="pacman-canvas-axel"></canvas>
+    </div>
+    <div class="footer-content">
+      <div class="footer-cta">
+        <p>Interested to work with me?</p>
+        <a href="mailto:pocketofpranay22@gmail.com" class="footer-email">pocketofpranay22@gmail.com</a>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/pranay-463249201/" target="_blank" class="footer-link">LinkedIn ↗</a>
+          <a href="mailto:pocketofpranay22@gmail.com" class="footer-link">Email ↗</a>
+        </div>
+      </div>
+      <div class="footer-meta"><p>Pranay 2026</p><p>All rights reserved</p></div>
+    </div>
   </footer>
 </div>
 
@@ -892,8 +916,8 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
     <div class="cs-hero-bg" style="background:linear-gradient(135deg,#0e0e0e 0%,#0f1110 50%,#0e0e0e 100%)"></div>
     <div class="cs-hero-inner">
       <p class="cs-eyebrow reveal"><span style="width:24px;height:1px;background:var(--green);display:inline-block;vertical-align:middle"></span>Gorillas Operations · 2022–2023 · Case Study</p>
-      <h1 class="cs-title reveal" style="transition-delay:.08s">€1 of discount, <em>€1 of revenue</em> , or not?</h1>
-      <p class="cs-summary reveal" style="transition-delay:.16s">How causal uplift modelling and CLV-based segmentation revealed that ~28% of Gorillas' promotional spend in Germany and the Netherlands was being absorbed by customers who would have ordered anyway , and how two counterintuitive pricing findings reshaped how every promotional euro was targeted.</p>
+      <h1 class="cs-title reveal" style="transition-delay:.08s">€1 of discount, <em>€1 of revenue</em>, or not?</h1>
+      <p class="cs-summary reveal" style="transition-delay:.16s">How causal uplift modelling and CLV-based segmentation revealed that ~28% of Gorillas' promotional spend in Germany and the Netherlands was being absorbed by customers who would have ordered anyway, and how two counterintuitive pricing findings reshaped how every promotional euro was targeted.</p>
       <div class="cs-tags reveal" style="transition-delay:.22s">
         <span class="cs-tag">Uplift Modelling</span><span class="cs-tag">CLV Segmentation</span><span class="cs-tag">Pricing Strategy</span><span class="cs-tag">Causal Inference</span>
       </div>
@@ -901,32 +925,32 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
   </header>
   <div class="cs-wrap">
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--green)">01 , The Business Problem</span>
+      <span class="section-num" style="color:var(--green)">01, The Business Problem</span>
       <h2 class="section-heading">In quick-commerce, everyone receives a discount. That was the problem.</h2>
-      <p class="body-text">Gorillas was operating in one of the most aggressively promotional environments in European e-commerce , a market where customer acquisition cost was high, margins were razor-thin, and the competitive pressure to discount was constant. The promotional budget across German and Dutch markets was running at approximately <strong>€120K per quarter</strong>. Every customer , new, returning, loyal, or lapsed , was receiving similar promotional offers, regardless of whether the discount was actually changing their behaviour.</p>
-      <p class="body-text">A high redemption rate from a loyal customer who was going to order anyway isn't a marketing success , it's a margin reduction on a sale you already owned. The question nobody was asking rigorously: <em>for how many of our customers is this discount actually causing an order that wouldn't have happened otherwise?</em></p>
+      <p class="body-text">Gorillas was operating in one of the most aggressively promotional environments in European e-commerce, a market where customer acquisition cost was high, margins were razor-thin, and the competitive pressure to discount was constant. The promotional budget across German and Dutch markets was running at approximately <strong>€120K per quarter</strong>. Every customer, new, returning, loyal, or lapsed, was receiving similar promotional offers, regardless of whether the discount was actually changing their behaviour.</p>
+      <p class="body-text">A high redemption rate from a loyal customer who was going to order anyway isn't a marketing success, it's a margin reduction on a sale you already owned. The question nobody was asking rigorously: <em>for how many of our customers is this discount actually causing an order that wouldn't have happened otherwise?</em></p>
       <blockquote><p>"In a startup burning cash to win market share, every promotional euro needs to be creating incremental revenue, not subsidising behaviour that was already going to happen. The aggregate numbers couldn't tell us which was which."</p></blockquote>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--green)">02 , The Real Obstacle Wasn't the Model</span>
+      <span class="section-num" style="color:var(--green)">02, The Real Obstacle Wasn't the Model</span>
       <h2 class="section-heading">Before any insight could exist, the data had to.</h2>
-      <p class="body-text">Gorillas had no single data warehouse. Customer records, order history, promotional redemption data, and pricing data lived in separate systems across markets , each city-level operation with its own schema, its own update cadence, its own level of completeness. The first month of this project wasn't modelling. It was data archaeology: tracing customer identifiers across systems, reconciling promotional exposure flags, and building the pipelines that made a unified analytical layer possible.</p>
-      <blockquote><p>"Measurement infrastructure is not a precondition for analytical work , it is the analytical work, at least until it exists. In an environment without a warehouse, the data scientist who can build pipelines and run models is worth more than one who can only do the latter."</p></blockquote>
+      <p class="body-text">Gorillas had no single data warehouse. Customer records, order history, promotional redemption data, and pricing data lived in separate systems across markets, each city-level operation with its own schema, its own update cadence, its own level of completeness. The first month of this project wasn't modelling. It was data archaeology: tracing customer identifiers across systems, reconciling promotional exposure flags, and building the pipelines that made a unified analytical layer possible.</p>
+      <blockquote><p>"Measurement infrastructure is not a precondition for analytical work, it is the analytical work, at least until it exists. In an environment without a warehouse, the data scientist who can build pipelines and run models is worth more than one who can only do the latter."</p></blockquote>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--green)">03 , What I Built</span>
+      <span class="section-num" style="color:var(--green)">03, What I Built</span>
       <h2 class="section-heading">Segment first. Model response. Then price by market.</h2>
       <ul class="steps-list">
         <li><span class="step-num" style="color:var(--green)">1.</span><div class="step-body"><strong>Data unification pipeline across DE, NL, and UK</strong>Built consolidation pipelines standardising customer identifiers, order cadence metrics, and promotional exposure flags across city-level data sources. Germany and the Netherlands became the primary analytical markets.</div></li>
         <li><span class="step-num" style="color:var(--green)">2.</span><div class="step-body"><strong>CLV-based customer segmentation using cohort analysis</strong>Using cohort-based LTV models on the unified behavioural data, I identified three structurally distinct customer types defined by their behavioural relationship with pricing and promotions. Habitual orderers were worth approximately <strong>3× a deal-hunter at 90 days</strong>.</div></li>
-        <li><span class="step-num" style="color:var(--green)">3.</span><div class="step-body"><strong>T-learner uplift models to separate response from coincidence</strong>Deployed T-learner causal uplift models , training separate response models on treated and control populations, then computing individual treatment effects. The output was a propensity score per customer, estimating whether a promotion would cause an incremental order or simply be redeemed on a sale that was already happening.</div></li>
+        <li><span class="step-num" style="color:var(--green)">3.</span><div class="step-body"><strong>T-learner uplift models to separate response from coincidence</strong>Deployed T-learner causal uplift models, training separate response models on treated and control populations, then computing individual treatment effects. The output was a propensity score per customer, estimating whether a promotion would cause an incremental order or simply be redeemed on a sale that was already happening.</div></li>
         <li><span class="step-num" style="color:var(--green)">4.</span><div class="step-body"><strong>Pricing elasticity modelling across four levers and three markets</strong>Modelled price elasticity across delivery fee changes, minimum order value thresholds, product-level price changes, and promotional discount depth. Germany and the Netherlands showed near-identical elasticity patterns. The UK diverged significantly, requiring a separate model.</div></li>
       </ul>
     </section>
-    <!-- 04 , segments + bubble chart -->
+    <!-- 04, segments + bubble chart -->
     <section class="split-section" style="grid-template-columns:1fr 360px">
       <div class="reveal">
-        <span class="section-num" style="color:var(--green)">04 , The Three Customer Types</span>
+        <span class="section-num" style="color:var(--green)">04, The Three Customer Types</span>
         <h2 class="section-heading">Same platform. Three completely different economic relationships.</h2>
         <div style="margin-top:24px">
           <div class="segment-card">
@@ -934,27 +958,27 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
             <div class="segment-name">The deal-hunter</div>
             <div class="segment-clv" style="color:var(--red)">1×</div>
             <div class="segment-clv-label">90-day CLV baseline</div>
-            <div class="segment-desc">Orders primarily during promotional windows. High redemption rate, low baseline frequency, price-elastic. Promotions are genuinely incremental , but CLV is approximately one-third of a habitual orderer.</div>
+            <div class="segment-desc">Orders primarily during promotional windows. High redemption rate, low baseline frequency, price-elastic. Promotions are genuinely incremental, but CLV is approximately one-third of a habitual orderer.</div>
           </div>
           <div class="segment-card">
             <div class="segment-label">Segment 02</div>
             <div class="segment-name">The habitual orderer</div>
             <div class="segment-clv" style="color:var(--green)">3×</div>
             <div class="segment-clv-label">90-day CLV vs deal-hunter</div>
-            <div class="segment-desc">Orders consistently regardless of promotional activity. Price-inelastic at moderate discount levels. Promotions generate reliable redemptions but zero incremental orders , every discount is pure margin erosion on revenue already secured.</div>
+            <div class="segment-desc">Orders consistently regardless of promotional activity. Price-inelastic at moderate discount levels. Promotions generate reliable redemptions but zero incremental orders, every discount is pure margin erosion on revenue already secured.</div>
           </div>
           <div class="segment-card">
             <div class="segment-label">Segment 03</div>
             <div class="segment-name">The lapsed user</div>
             <div class="segment-clv" style="color:var(--amber)">~1×</div>
             <div class="segment-clv-label">Post-reactivation CLV</div>
-            <div class="segment-desc">Previously active, now dormant. Personalised messages produced the highest incremental response rate of any segment. But reactivated lapsed users tended to order once or twice before lapsing again , placing their true 90-day CLV closer to a deal-hunter.</div>
+            <div class="segment-desc">Previously active, now dormant. Personalised messages produced the highest incremental response rate of any segment. But reactivated lapsed users tended to order once or twice before lapsing again, placing their true 90-day CLV closer to a deal-hunter.</div>
           </div>
         </div>
         <blockquote style="margin-top:20px"><p>"The lapsed user finding was the most instructive gap between surface signal and underlying reality. The high incremental response rate looked like high value. Post-reactivation CLV revealed it wasn't."</p></blockquote>
       </div>
       <div class="chart-card visible" id="gorillas-c4">
-        <div class="chart-header"><p class="chart-eyebrow">Chart 04 , Strategic Frame</p><h3 class="chart-title">Segment CLV vs promotional responsiveness</h3><p class="chart-sub">Bubble size = share of promotional budget before reallocation.</p></div>
+        <div class="chart-header"><p class="chart-eyebrow">Chart 04, Strategic Frame</p><h3 class="chart-title">Segment CLV vs promotional responsiveness</h3><p class="chart-sub">Bubble size = share of promotional budget before reallocation.</p></div>
         <div class="chart-body">
           <div class="legend">
             <div class="leg"><div class="leg-sq" style="background:rgba(225,112,85,0.7)"></div>Promotion-dependent</div>
@@ -962,21 +986,21 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
             <div class="leg"><div class="leg-sq" style="background:rgba(253,203,110,0.7)"></div>Trigger-dependent</div>
           </div>
           <div class="canvas-wrap" style="height:280px"><canvas id="gorillas-chart4"></canvas></div>
-          <div class="chart-annotation green"><strong>Reallocation logic:</strong> Habitual orderers had highest CLV but near-zero promotional responsiveness. Deal-hunters: genuine uplift, low CLV , capped at 20% depth.</div>
+          <div class="chart-annotation green"><strong>Reallocation logic:</strong> Habitual orderers had highest CLV but near-zero promotional responsiveness. Deal-hunters: genuine uplift, low CLV, capped at 20% depth.</div>
         </div>
       </div>
     </section>
-    <!-- 05 , findings + chart 1 -->
+    <!-- 05, findings + chart 1 -->
     <section class="split-section">
       <div class="reveal">
-        <span class="section-num" style="color:var(--green)">05 , What We Found</span>
+        <span class="section-num" style="color:var(--green)">05, What We Found</span>
         <h2 class="section-heading">Bigger discounts didn't buy proportionally more orders. And €2 off delivery beats both.</h2>
-        <p class="body-text">Approximately <strong>28% of customers</strong> in Germany and the Netherlands showed near-zero treatment effect , promotions had no meaningful causal impact on their ordering behaviour. At ~€120K quarterly spend, roughly <strong>€33K per quarter</strong> was being absorbed by customers whose behaviour wasn't changing.</p>
-        <p class="body-text">A <strong>20% discount drove almost the same incremental order volume as a 30% discount</strong> across promotion-responsive segments. The last 10 percentage points of discount depth were buying almost nothing , pure margin cost with no behavioural return.</p>
-        <blockquote><p>"€2 off the delivery fee outperformed a 20% basket discount in Germany on incremental order conversion. Delivery fee reduction removes a binary barrier , 'do I pay anything to receive this order?' , while basket discounts adjust a continuous price variable. One changes the decision frame. The other changes a number within it."</p></blockquote>
+        <p class="body-text">Approximately <strong>28% of customers</strong> in Germany and the Netherlands showed near-zero treatment effect, promotions had no meaningful causal impact on their ordering behaviour. At ~€120K quarterly spend, roughly <strong>€33K per quarter</strong> was being absorbed by customers whose behaviour wasn't changing.</p>
+        <p class="body-text">A <strong>20% discount drove almost the same incremental order volume as a 30% discount</strong> across promotion-responsive segments. The last 10 percentage points of discount depth were buying almost nothing, pure margin cost with no behavioural return.</p>
+        <blockquote><p>"€2 off the delivery fee outperformed a 20% basket discount in Germany on incremental order conversion. Delivery fee reduction removes a binary barrier, 'do I pay anything to receive this order?', while basket discounts adjust a continuous price variable. One changes the decision frame. The other changes a number within it."</p></blockquote>
       </div>
       <div class="chart-card visible" id="gorillas-c1">
-        <div class="chart-header"><p class="chart-eyebrow">Chart 01 , Core Finding</p><h3 class="chart-title">Promotional response by customer segment</h3><p class="chart-sub">~28% of customers showed near-zero treatment effect. ~€33K/quarter absorbed by non-responsive habitual orderers.</p></div>
+        <div class="chart-header"><p class="chart-eyebrow">Chart 01, Core Finding</p><h3 class="chart-title">Promotional response by customer segment</h3><p class="chart-sub">~28% of customers showed near-zero treatment effect. ~€33K/quarter absorbed by non-responsive habitual orderers.</p></div>
         <div class="chart-body">
           <div class="stat-row stat-row-4">
             <div class="stat-cell"><div class="stat-num" style="color:var(--red);font-size:22px">28%</div><div class="stat-label">Non-responsive</div></div>
@@ -989,7 +1013,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
             <div class="leg"><div class="leg-sq" style="background:rgba(253,203,110,0.5)"></div>Promo volume share</div>
           </div>
           <div class="canvas-wrap" style="height:185px"><canvas id="gorillas-chart1"></canvas></div>
-          <div class="chart-annotation green"><strong>Core finding:</strong> Habitual orderers consumed 28% of promotional budget and showed zero incremental treatment effect , ordering regardless.</div>
+          <div class="chart-annotation green"><strong>Core finding:</strong> Habitual orderers consumed 28% of promotional budget and showed zero incremental treatment effect, ordering regardless.</div>
         </div>
       </div>
     </section>
@@ -998,7 +1022,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
       <p class="section-label">Pricing Elasticity & Market Split</p>
       <div class="two-col-charts">
         <div class="chart-card" id="gorillas-c2">
-          <div class="chart-header"><p class="chart-eyebrow">Chart 02 , Pricing Finding</p><h3 class="chart-title">Discount depth vs incremental order uplift</h3><p class="chart-sub">20% discount drove almost the same uplift as 30%. Toggle to compare delivery fee vs basket discount.</p></div>
+          <div class="chart-header"><p class="chart-eyebrow">Chart 02, Pricing Finding</p><h3 class="chart-title">Discount depth vs incremental order uplift</h3><p class="chart-sub">20% discount drove almost the same uplift as 30%. Toggle to compare delivery fee vs basket discount.</p></div>
           <div class="chart-body">
             <div class="toggle-row">
               <button class="toggle-btn active" onclick="gorillasSwitch(this,'depth')">Discount depth</button>
@@ -1010,7 +1034,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
           </div>
         </div>
         <div class="chart-card" id="gorillas-c3">
-          <div class="chart-header"><p class="chart-eyebrow">Chart 03 , Market Split</p><h3 class="chart-title">Pricing elasticity by market , DE/NL vs UK</h3><p class="chart-sub">Germany and Netherlands showed near-identical elasticity. UK diverged significantly, requiring a separate model.</p></div>
+          <div class="chart-header"><p class="chart-eyebrow">Chart 03, Market Split</p><h3 class="chart-title">Pricing elasticity by market, DE/NL vs UK</h3><p class="chart-sub">Germany and Netherlands showed near-identical elasticity. UK diverged significantly, requiring a separate model.</p></div>
           <div class="chart-body">
             <div class="legend"><div class="leg"><div class="leg-sq" style="background:rgba(0,184,148,0.85)"></div>Germany + Netherlands</div><div class="leg"><div class="leg-sq" style="background:rgba(253,203,110,0.7)"></div>United Kingdom</div></div>
             <div class="canvas-wrap" style="height:250px"><canvas id="gorillas-chart3"></canvas></div>
@@ -1020,7 +1044,7 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
       </div>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--green)">06 , What Changed</span>
+      <span class="section-num" style="color:var(--green)">06, What Changed</span>
       <h2 class="section-heading">Three segments. Three strategies. One budget that worked harder.</h2>
       <p class="body-text">Habitual orderers were shifted out of standard promotional flows and replaced with retention-focused communications. Deal-hunters received promotions capped at 20% depth rather than 30%, recovering margin with no meaningful reduction in incremental order volume. Lapsed users received personalised win-back sequences with expectations reset around their likely post-reactivation value.</p>
       <div class="outcome-list" style="margin-top:24px">
@@ -1038,21 +1062,33 @@ body.cursor-click .cursor-ring{width:24px;height:24px}
         </div>
         <div class="outcome-item">
           <div class="outcome-dot" style="background:var(--red)"></div>
-          <div class="outcome-body"><strong>3× CLV gap between habitual orderers and deal-hunters at 90 days</strong>Drove a CLV-adjusted promotional framework , incremental order from a deal-hunter worth one-third of a habitual orderer's equivalent at 90 days.<span class="outcome-badge">Segmentation finding</span></div>
+          <div class="outcome-body"><strong>3× CLV gap between habitual orderers and deal-hunters at 90 days</strong>Drove a CLV-adjusted promotional framework, incremental order from a deal-hunter worth one-third of a habitual orderer's equivalent at 90 days.<span class="outcome-badge">Segmentation finding</span></div>
         </div>
       </div>
     </section>
     <section class="text-section reveal">
-      <span class="section-num" style="color:var(--green)">07 , What I'd Do Differently</span>
+      <span class="section-num" style="color:var(--green)">07, What I'd Do Differently</span>
       <h2 class="section-heading">Honest reflection.</h2>
-      <p class="body-text">The data fragmentation problem was the constraint that shaped everything else , and I accepted it as a given rather than treating it as the first thing to solve. If I were starting again, I would push for a centralised warehouse as a project prerequisite, not an ongoing workaround.</p>
+      <p class="body-text">The data fragmentation problem was the constraint that shaped everything else, and I accepted it as a given rather than treating it as the first thing to solve. If I were starting again, I would push for a centralised warehouse as a project prerequisite, not an ongoing workaround.</p>
       <p class="body-text">The lapsed user segment deserved its own dedicated controlled experiment. The surface signal (high reactivation rate) and the underlying reality (low post-reactivation CLV) took too long to reconcile. Building the 90-day CLV measurement into the reactivation campaign logic from day one would have changed how the segment was prioritised and funded.</p>
       <p class="body-text">The deal-hunter segment needed a CLV-adjusted promotional framework from day one. An incremental order from a deal-hunter was worth roughly one-third of a habitual orderer's equivalent order at 90 days. Building that adjustment into the uplift model targeting logic earlier would have prevented over-indexing on deal-hunter acquisition in city campaigns where the incremental volume looked strong but the long-run revenue contribution didn't justify the discount cost.</p>
     </section>
   </div>
-  <footer class="cs-footer">
-    <div class="footer-cta"><p>Interested to work with me?</p><a href="mailto:pocketofpranay22@gmail.com" class="footer-email">pocketofpranay22@gmail.com</a></div>
-    <div class="footer-meta"><p>Pranay 2026</p><p>All rights reserved</p></div>
+  <footer class="site-footer" id="section-contact">
+    <div class="footer-pacman-stage" aria-hidden="true">
+      <canvas id="pacman-canvas-gorillas"></canvas>
+    </div>
+    <div class="footer-content">
+      <div class="footer-cta">
+        <p>Interested to work with me?</p>
+        <a href="mailto:pocketofpranay22@gmail.com" class="footer-email">pocketofpranay22@gmail.com</a>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/pranay-463249201/" target="_blank" class="footer-link">LinkedIn ↗</a>
+          <a href="mailto:pocketofpranay22@gmail.com" class="footer-link">Email ↗</a>
+        </div>
+      </div>
+      <div class="footer-meta"><p>Pranay 2026</p><p>All rights reserved</p></div>
+    </div>
   </footer>
 </div>
 
@@ -1078,6 +1114,9 @@ function showPage(id,anchor){
     if(id==='awin')initAwinCharts();
     if(id==='axel')initAxelCharts();
     if(id==='gorillas')initGorillasCharts();
+    /* start pacman for this page */
+    var _pcMap={home:'pacman-canvas',awin:'pacman-canvas-awin',axel:'pacman-canvas-axel',gorillas:'pacman-canvas-gorillas'};
+    if(_pcMap[id]) setTimeout(function(){initPacman(_pcMap[id]);},120);
   },50);
 }
 
@@ -1105,7 +1144,7 @@ function initHeroCanvas(){
   var nCtx=nc.getContext('2d');var img=nCtx.createImageData(256,256);
   for(var i=0;i<img.data.length;i+=4){var v=Math.random()*255|0;img.data[i]=img.data[i+1]=img.data[i+2]=v;img.data[i+3]=16;}
   nCtx.putImageData(img,0,0);
-  /* Monochrome blobs , pure greyscale, no colour */
+  /* Monochrome blobs, pure greyscale, no colour */
   var blobs=[
     {ax:0.22,ay:0.38,rx:0.24,ry:0.20,fx:0.00038,fy:0.00029,px:0.00,py:1.20,o:0.26,r:0.62},
     {ax:0.74,ay:0.28,rx:0.22,ry:0.24,fx:0.00029,fy:0.00044,px:2.10,py:0.40,o:0.20,r:0.56},
@@ -1160,7 +1199,7 @@ function mkChart(id,cfg){if(CI[id]){CI[id].destroy();}CI[id]=new Chart(document.
 function initAwinCharts(){
   mkChart('awin-chart1',{type:'bar',data:{labels:['Brand awareness','Performance search','Referral','Display (prosp.)','Display (retarg.)'],datasets:[{label:'Volume',data:[112,85,60,55,68],backgroundColor:'rgba(108,92,231,0.7)',borderRadius:2,borderSkipped:false},{label:'Conv. rate',data:[51,66,71,48,44],backgroundColor:'rgba(0,184,148,0.8)',borderRadius:2,borderSkipped:false}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:Object.assign({},tip,{callbacks:{label:function(c){return c.datasetIndex===0?'  Volume: '+c.parsed.y:'  Conv. rate: '+c.parsed.y+'%';}}})},scales:{x:{grid:{display:false},ticks:{font:mFont,color:INK_L,maxRotation:22}},y:Object.assign(ax('Volume index / Conv. rate %'),{min:0,max:130})}}});
   var weeks=['Wk 1','Wk 2','Wk 3','Wk 4','Wk 5','Wk 6'];
-  var holdout={brand:{t:[1000,1012,1008,1018,1010,1015],c:[880,862,945,978,992,997],note:'<strong>Brand awareness holdout:</strong> Control markets dropped ~12% in weeks 1–2 when brand was suppressed. By weeks 4–6, organic and direct demand had fully absorbed the gap — brand was accelerating latent demand, not creating new demand.',accent:'purple'},performance:{t:[1000,1058,1082,1078,1090,1086],c:[1000,872,848,841,858,852],note:'<strong>Performance search holdout:</strong> Control markets dropped 14–16% when performance campaigns were suppressed and did not recover. Performance search was capturing genuine new demand that had no organic substitute.',accent:'green'},referral:{t:[1000,1065,1090,1098,1082,1092],c:[1000,835,812,808,825,819],note:'<strong>Referral holdout:</strong> Sharpest and most sustained drop — 16–19%, held across all 6 weeks with no recovery. Referral was generating net new opportunities with no organic substitute. This made tripling the referral budget self-evident.',accent:'green'}};
+  var holdout={brand:{t:[1000,1012,1008,1018,1010,1015],c:[880,862,945,978,992,997],note:'<strong>Brand awareness holdout:</strong> Control markets dropped ~12% in weeks 1–2 when brand was suppressed. By weeks 4–6, organic and direct demand had fully absorbed the gap, brand was accelerating latent demand, not creating new demand.',accent:'purple'},performance:{t:[1000,1058,1082,1078,1090,1086],c:[1000,872,848,841,858,852],note:'<strong>Performance search holdout:</strong> Control markets dropped 14–16% when performance campaigns were suppressed and did not recover. Performance search was capturing genuine new demand that had no organic substitute.',accent:'green'},referral:{t:[1000,1065,1090,1098,1082,1092],c:[1000,835,812,808,825,819],note:'<strong>Referral holdout:</strong> Sharpest and most sustained drop, 16–19%, held across all 6 weeks with no recovery. Referral was generating net new opportunities with no organic substitute. This made tripling the referral budget self-evident.',accent:'green'}};
   function buildAwinLine(key){
     var d=holdout[key];
     mkChart('awin-chart2',{type:'line',data:{labels:weeks,datasets:[{label:'Treatment',data:d.t,borderColor:'#6C5CE7',backgroundColor:'rgba(108,92,231,0.06)',borderWidth:2.5,pointRadius:3.5,pointBackgroundColor:'#6C5CE7',pointBorderColor:'#0e0e0e',pointBorderWidth:1.5,tension:0.35,fill:true},{label:'Control',data:d.c,borderColor:'#00B894',backgroundColor:'rgba(0,184,148,0.05)',borderWidth:2.5,borderDash:[6,3],pointRadius:3.5,pointBackgroundColor:'#00B894',pointBorderColor:'#0e0e0e',pointBorderWidth:1.5,tension:0.35,fill:true}]},options:{responsive:true,maintainAspectRatio:false,animation:{duration:350},plugins:{legend:{display:false},tooltip:Object.assign({},tip,{callbacks:{label:function(c){return '  '+c.dataset.label+': '+Math.round(c.parsed.y);}}})},scales:{x:{grid:{display:false},ticks:{font:mFont,color:INK_L}},y:Object.assign(ax('Inbound opps (indexed)'),{min:780,max:1130})}}});
@@ -1232,15 +1271,27 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
 
 
 /* ── PACMAN FOOTER v4 ── */
-(function(){
-  var canvas = document.getElementById('pacman-canvas');
+var _pacmanInstances = {};
+function initPacman(canvasId){
+  if(_pacmanInstances[canvasId]) return; /* already running */
+  var canvas = document.getElementById(canvasId);
   if(!canvas) return;
+  _pacmanInstances[canvasId] = true;
   var ctx = canvas.getContext('2d');
   var W=0, H=0;
 
   function resize(){
-    var stage = document.querySelector('.footer-pacman-stage');
+    var stage = canvas.closest('.footer-pacman-stage') || canvas.parentElement;
     if(!stage) return;
+    W = stage.offsetWidth || window.innerWidth;
+    H = Math.round(W * 0.175);
+    H = Math.max(140, Math.min(H, 240));
+    canvas.width  = W;
+    canvas.height = H;
+    stage.style.height = H + 'px';
+    rebuildPaths();
+  }
+
     W = stage.offsetWidth || window.innerWidth;
     H = Math.round(W * 0.175);
     H = Math.max(140, Math.min(H, 240));
@@ -1255,15 +1306,15 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
      Ghost lines: 4 lines, more visible grey, all different shapes
   ────────────────────────────────────────────────────────── */
 
-  /* Hero line — mirrors reference: big early spike, long diagonal crash, tight low zigzags */
+  /* Hero line, mirrors reference: big early spike, long diagonal crash, tight low zigzags */
   var heroNorm = [
-    /* left edge — mid start */
+    /* left edge, mid start */
     [0.000, 0.60],
     /* first small peak */
     [0.030, 0.28],
     /* dip */
     [0.058, 0.52],
-    /* THE big peak — top of canvas */
+    /* THE big peak, top of canvas */
     [0.100, 0.04],
     /* sharp drop to secondary peak */
     [0.130, 0.22],
@@ -1271,7 +1322,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     [0.158, 0.40],
     /* secondary peak */
     [0.188, 0.14],
-    /* start of long diagonal crash — dominant segment */
+    /* start of long diagonal crash, dominant segment */
     [0.240, 0.32],
     [0.320, 0.62],
     [0.400, 0.85],
@@ -1298,7 +1349,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     [1.000, 0.96]
   ];
 
-  /* Ghost line 1 — upper area, sharp peaks */
+  /* Ghost line 1, upper area, sharp peaks */
   var g1 = [
     [0.00,0.45],[0.05,0.08],[0.12,0.35],[0.18,0.05],
     [0.26,0.28],[0.34,0.55],[0.42,0.12],[0.50,0.40],
@@ -1306,7 +1357,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     [0.88,0.38],[0.94,0.10],[1.00,0.28]
   ];
 
-  /* Ghost line 2 — lower, deep troughs with sudden spikes */
+  /* Ghost line 2, lower, deep troughs with sudden spikes */
   var g2 = [
     [0.00,0.72],[0.06,0.92],[0.14,0.55],[0.22,0.88],
     [0.30,0.45],[0.36,0.78],[0.44,0.95],[0.52,0.60],
@@ -1314,7 +1365,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     [0.92,0.82],[1.00,0.65]
   ];
 
-  /* Ghost line 3 — mid, full-range violent swings */
+  /* Ghost line 3, mid, full-range violent swings */
   var g3 = [
     [0.00,0.50],[0.05,0.08],[0.10,0.85],[0.16,0.15],
     [0.22,0.78],[0.28,0.05],[0.34,0.70],[0.40,0.90],
@@ -1323,7 +1374,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     [0.94,0.30],[1.00,0.08]
   ];
 
-  /* Ghost line 4 — baseline with sudden upward spikes */
+  /* Ghost line 4, baseline with sudden upward spikes */
   var g4 = [
     [0.00,0.80],[0.08,0.88],[0.16,0.55],[0.24,0.92],
     [0.32,0.70],[0.40,0.95],[0.48,0.65],[0.56,0.88],
@@ -1452,10 +1503,10 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     ctx.save();
     ctx.translate(x, y);
 
-    /* Body — rounded top, wavy bottom */
+    /* Body, rounded top, wavy bottom */
     ctx.beginPath();
     ctx.arc(0, 0, R, Math.PI, 0, false); /* top semicircle */
-    /* wavy skirt — 3 bumps */
+    /* wavy skirt, 3 bumps */
     var bx = -R, step = R*2/3;
     ctx.lineTo(R, R*0.75);
     for(var b=0;b<3;b++){
@@ -1488,7 +1539,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
       ctx.ellipse(e[0], e[1], R*0.28, R*0.32, 0, 0, Math.PI*2);
       ctx.fillStyle = '#fff';
       ctx.fill();
-      /* pupil — looking right (away from pacman = right) */
+      /* pupil, looking right (away from pacman = right) */
       ctx.beginPath();
       ctx.arc(e[0]+R*0.10, e[1]+R*0.06, R*0.14, 0, Math.PI*2);
       ctx.fillStyle = '#1a5fa0';
@@ -1561,7 +1612,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
   function drawHeroLine(eatDist){
     var split = posAtDist(eatDist);
 
-    /* eaten portion — dim grey */
+    /* eaten portion, dim grey */
     ctx.save();
     ctx.strokeStyle = '#555';
     ctx.lineWidth = 1.2;
@@ -1577,7 +1628,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     ctx.stroke();
     ctx.restore();
 
-    /* uneaten portion — bright WHITE */
+    /* uneaten portion, bright WHITE */
     ctx.save();
     ctx.strokeStyle = '#ffffff';
     ctx.lineWidth = 1.6;
@@ -1591,7 +1642,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     ctx.stroke();
     ctx.restore();
 
-    /* dots on uneaten — white, prominent */
+    /* dots on uneaten, white, prominent */
     ctx.save();
     for(var k=0;k<heroPts.length;k++){
       if(segLens[k] > eatDist + 16){
@@ -1673,7 +1724,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
 
     drawGrid();
 
-    /* Ghost lines — most visible first (g3 mid), then others */
+    /* Ghost lines, most visible first (g3 mid), then others */
     drawGhostLine(ghostPts[0], 0.22, 1.0, 2.5);   /* upper */
     drawGhostLine(ghostPts[1], 0.18, 0.9, 2.2);   /* lower */
     drawGhostLine(ghostPts[2], 0.20, 0.9, 2.2);   /* mid spiky */
@@ -1682,7 +1733,7 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
     /* Hero line */
     drawHeroLine(dist);
 
-    /* Ghost character — ahead of pacman on the line */
+    /* Ghost character, ahead of pacman on the line */
     var ghostDist = Math.min(dist + ghostGap, totalLen);
     var gPos  = posAtDist(ghostDist);
 
@@ -1713,8 +1764,36 @@ document.addEventListener('DOMContentLoaded',function(){initHeroCanvas();initRev
       }
     });
   }, {threshold: 0.05});
-  var stage = document.querySelector('.footer-pacman-stage');
-  if(stage) io.observe(stage);
+  io.observe(canvas.closest('.footer-pacman-stage') || canvas.parentElement);
+}
+
+/* Wire pacman to each page on navigation */
+(function(){
+  var allCanvases = {
+    home: 'pacman-canvas',
+    awin: 'pacman-canvas-awin',
+    axel: 'pacman-canvas-axel',
+    gorillas: 'pacman-canvas-gorillas'
+  };
+  var origShowPage = typeof showPage === 'function' ? showPage : null;
+  function triggerPacman(pageId){
+    var cid = allCanvases[pageId];
+    if(cid) setTimeout(function(){ initPacman(cid); }, 100);
+  }
+  /* Patch showPage to also trigger pacman */
+  var _orig = window.showPage;
+  window.showPage = function(id, anchor){
+    if(_orig) _orig(id, anchor);
+    triggerPacman(id);
+  };
+  /* Trigger for the initial page on load */
+  document.addEventListener('DOMContentLoaded', function(){
+    var activePage = document.querySelector('.page.active');
+    if(activePage){
+      var pid = activePage.id.replace('page-','');
+      triggerPacman(pid);
+    }
+  });
 })();
 
 </script>
